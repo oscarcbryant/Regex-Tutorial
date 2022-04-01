@@ -10,9 +10,9 @@ We can easily identify a number of websites by the domains as we know them:
 
 Whilst each of these URL's are unique to the sites we'll visit, they do have a few things in common. 
 
-a) they are represented by a string, ie 'google'
-b) they are seperated by a fullstop ie '.'
-c) they all end in '.com'
+### a) they are represented by a string, ie 'google'
+### b) they are seperated by a fullstop ie '.'
+### c) they all end in '.com'
 
 If we breakdown these identifiers into a generic format, we're left with the following expression:
 
