@@ -16,7 +16,7 @@ c) they all end in '.com'
 
 If we breakdown these identifiers into a generic format, we're left with the following expression:
 
-/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+`/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
 
 The above expression is the foundational blueprint of every website we visit. This line gives us the 'regular expression' OR regex of a URL without specifying the unique path we'll use to access our websites (ie, `google.com`).
 
@@ -46,7 +46,7 @@ Let's start by reviewing the regex itself by it's components.
 
 A regex is considered a literal, so out pattern will always be bookended by slashes (/). If we look at the “URL” regex, you'll see how this applies:
 
-/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+`/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
 
 ### Anchors
 
